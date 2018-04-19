@@ -14,13 +14,11 @@ void setup() {
   lcd.print("Start");
   pinMode(LAMP, OUTPUT); // sets LAMP as output
   pinMode(PIR,INPUT); // sets PIR as output
-  Serial.begin(9600);
 }
 void loop()
 {
   int value_ldr = RecieveLDR();
   int value_pir = RecievePIR();
-  Serial.println(value_ldr);
   timing = checkPIR(value_pir, timing);
   if (timing!=0)
   timing = adjustbrightness(value_ldr, timing);
@@ -38,7 +36,7 @@ int checkPIR(int var_pir, int timing)
 {
   if (var_pir>=600&&timing==0)
   {
-    timing = 300;
+    timing = 60;
     digitalWrite(LAMP,1);
   }
   else if (var_pir>=600&&timing!=0)

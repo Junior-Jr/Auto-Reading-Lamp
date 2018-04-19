@@ -14,6 +14,7 @@ void setup() {
   lcd.print("Start");
   pinMode(LAMP, OUTPUT); // sets LAMP as output
   pinMode(PIR,INPUT); // sets PIR as output
+  //del serial print here
 }
 void loop()
 {

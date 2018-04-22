@@ -14,6 +14,7 @@
 ## Software :computer:
 Arduino Software (IDE)
 
+
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 ## Hardware :electric_plug:
 * Arduino UNO R3
@@ -23,8 +24,22 @@ Arduino Software (IDE)
 * LCD 16*1
 * Resistor 10k 
 * Variable Resistor Dimmer 
+* Jumper wires
 * Lamp
 * Warm White 220v 60 Watt Bulb
+
+
+:heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
+## Board Connection :wrench:
+#### ▶️Connect with LDR
+![ldr](https://user-images.githubusercontent.com/32834828/39094692-f73ac494-465d-11e8-8a7f-9bccc360e520.jpg)
+#### ▶️Connect with PIR
+![pir](https://user-images.githubusercontent.com/32834828/39094697-fc88da94-465d-11e8-86d8-8a8ebc5de751.jpg)
+#### ▶️Connect with LCD
+![lcd](https://user-images.githubusercontent.com/32834828/39094694-fa00a356-465d-11e8-8dd0-5eb8e0049de4.jpg)
+#### ▶️Connect with Lamp
+![lamp](https://user-images.githubusercontent.com/32834828/39094763-336b306a-465f-11e8-8eb5-65ebd036b416.jpg)
+
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 ## How To Work :question::question:
